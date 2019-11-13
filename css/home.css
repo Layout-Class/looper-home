@@ -3,16 +3,16 @@ body {
     font-family: Mplus 1p;
 }
 
-    header {
-        position: absolute;
-        width: 1441px;
-        height: 828px;
-        left: -1px;
-        top: 0px;
-        background-image: url(/img/Rectangle.png);
-        background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
-        mix-blend-mode: multiply;
-        color: #ffffff;
+header {
+    position: absolute;
+    width: 1441px;
+    height: 828px;
+    left: -1px;
+    top: 0px;
+    background-image: url(/img/Rectangle.png);
+    background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
+    mix-blend-mode: multiply;
+    color: #ffffff;
 }
 
 .logo {
@@ -28,12 +28,55 @@ body {
     letter-spacing: 2px;
 }
 
+.header__img {
+    position: absolute;
+    width: 1440px;
+    height: 828px;
+    left: 0px;
+    top: 0px;
+}
+
 nav {
+    display: inline-block;
     position: absolute;
     width: 879px;
     height: 35px;
     left: 441px;
     top: 68px;  
+}
+
+.side {
+    position: absolute;
+    width: 29px;
+    height: 343px;
+    left: 1288px;
+    top: 240px;
+}
+
+.headline {
+    position: absolute;
+    width: 852px;
+    height: 272px;
+    left: 147px;
+    top: 252px;
+}
+
+.subheader {
+    position: absolute;
+    width: 833px;
+    height: 108px;
+    left: -1px;
+    top: 594px;
+}
+
+/* later */
+
+.intro__img {
+    position: absolute;
+    width: 460px;
+    height: 738px;
+    left: 735px;
+    top: 972px;
 }
 
 .intro {
@@ -42,6 +85,14 @@ nav {
     height: 774px;
     left: 147px;
     top: 936px;
+}
+
+.benefits__img {
+    position: absolute;
+    width: 460px;
+    height: 612px;
+    left: 735px;
+    top: 1836px; 
 }
 
 .benefits {
