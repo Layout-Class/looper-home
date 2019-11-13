@@ -1,0 +1,85 @@
+body {
+    color: #30233D;        
+    font-family: Mplus 1p;
+}
+
+    header {
+        position: absolute;
+        width: 1441px;
+        height: 828px;
+        left: -1px;
+        top: 0px;
+        background-image: url(/img/Rectangle.png);
+        background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
+        mix-blend-mode: multiply;
+        color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    width: 166px;
+    height: 47px;
+    left: 147px;
+    top: 61px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: absolute;
+    width: 879px;
+    height: 35px;
+    left: 441px;
+    top: 68px;  
+}
+
+.intro {
+    position: absolute;
+    width: 1293px;
+    height: 774px;
+    left: 147px;
+    top: 936px;
+}
+
+.benefits {
+    position: absolute;
+    width: 1293px;
+    height: 1008px;
+    left: 0px;
+    top: 1638px;
+}
+
+.services {
+    position: absolute;
+    width: 1440px;
+    height: 1548px;
+    left: 0px;
+    top: 2448px;
+}
+
+.testimonials {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 3870px;
+}
+
+.newsletter {
+    position: absolute;
+    width: 613px;
+    height: 219px;
+    left: 413px;
+    top: 4896px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 558px;
+    left: 0px;
+    top: 5256px;
+}
