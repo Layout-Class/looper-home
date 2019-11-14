@@ -63,6 +63,30 @@ nav {
     top: 68px;  
 }
 
+.header__ul {
+  display:flex;  
+  list-style:none;
+}
+
+.hearder__li {
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #FCFCFC;
+    opacity: 0.8;
+    word-spacing: 10px;
+}
+
+.header__menu {
+    position: absolute;
+    width: 879px;
+    height: 35px;
+    left: 441px;
+    top: 68px;
+    width: 25px;
+}
+
 .hero__h1 {
     font-style: normal;
     font-weight: 900;
@@ -104,6 +128,12 @@ nav {
     height: 108px;
     left: -1px;
     top: 594px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
 }
 
 /* later */
