@@ -1,6 +1,6 @@
 body {
     color: #30233D;        
-    font-family: Mplus 1p;
+    font-family: 'M PLUS 1p', sans-serif;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     background-image: url(/img/Rectangle.png);
     background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
     mix-blend-mode: multiply;
-    color: #ffffff;
+    color: #fcfcfc;
 }
 
 .logo {
@@ -43,6 +43,25 @@ nav {
     height: 35px;
     left: 441px;
     top: 68px;  
+}
+
+.hero__h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 99px;
+    line-height: 118px;
+    color: #FCFCFC;
+}
+
+.highlight {
+   color: #F61067;
+}
+
+.hero__h3 {
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 4px;
 }
 
 .side {
