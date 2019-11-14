@@ -10,9 +10,27 @@ header {
     left: -1px;
     top: 0px;
     background-image: url(/img/Rectangle.png);
+    color: #fcfcfc;
+}
+
+.bg1 {
+    position: absolute;
+    width: 1440px;
+    height: 828px;
+    left: 0px;
+    top: 0px;
     background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
     mix-blend-mode: multiply;
-    color: #fcfcfc;
+}
+
+.bg2 {
+    position: absolute;
+    width: 1440px;
+    height: 828px;
+    left: 0px;
+    top: 0px;
+    background: #5E239D;
+    mix-blend-mode: multiply;
 }
 
 .logo {
