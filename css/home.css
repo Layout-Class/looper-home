@@ -75,7 +75,7 @@ nav {
     letter-spacing: 2px;
     color: #FCFCFC;
     opacity: 0.8;
-    word-spacing: 10px;
+    padding-right: 53px;
 }
 
 .header__menu {
@@ -85,6 +85,24 @@ nav {
     left: 441px;
     top: 68px;
     width: 25px;
+}
+
+.header__vector {
+    position: absolute;
+    left: 485px;
+    top: 2px;
+}
+
+.header__phone-number {
+    position: absolute;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    width: 226px;
+    height: 31px;
+    left: 520px;
+    top: 1px;
+    letter-spacing: 2px;
 }
 
 .hero__h1 {
@@ -114,9 +132,21 @@ nav {
     top: 240px;
 }
 
-.side__text {
+.side__text{
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
+}
+
+.side__img {
+    position: absolute;
+    width: 21px;
+    height: 46px;
+    left: 2px;
+    top: 272px;
 }
 
 .headline {
@@ -135,12 +165,27 @@ nav {
     top: 594px;
     border: 1px solid rgba(255, 255, 255, 0.25);
     box-sizing: border-box;
+}
+
+.subheader__text {
+    position: absolute;
+    width: 555px;
+    height: 37px;
+    left: 147px;
+    top: 35px;
     font-size: 18px;
     line-height: 29px;
     display: flex;
     align-items: center;
 }
 
+.subheader__arrow {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 745px;
+    top: 30px;
+}
 /* later */
 
 .intro__img {
