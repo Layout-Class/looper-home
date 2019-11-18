@@ -114,6 +114,11 @@ nav {
     top: 240px;
 }
 
+.side__text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
 .headline {
     position: absolute;
     width: 852px;
