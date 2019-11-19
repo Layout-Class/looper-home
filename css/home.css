@@ -246,25 +246,25 @@ nav {
 
 .intro__img {
     position: absolute;
-    left: 550px;
+    right: 270px;
     top: -5px;
     width: 30%;
 }
 
 .intro__quote-top {
     position: absolute;
-    width: 370px;
-    height: 25px;
-    left: 765px;
-    top: -30px;
+    width: 440px;
+    height: 30px;
+    right:0px;
+    top: -35px;
     background: #30124E;
 }
 
 .intro__quote {
     position: absolute;
-    width: 300px;
+    width: 370px;
     height: 420px;
-    left: 835px;
+    right: 0px;
     top: -5px;
     background: #30124E;
 }
