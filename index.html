@@ -5,56 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Looper</title>
-    <link rel="stylesheet" type="css/text" href="css/reset.css">
-    <link rel="stylesheet" type="css/text" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,800,900|Noticia+Text:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
     <header>
+        <img class="header__img" src="img/Rectangle.png">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
         <div class="top">
             <p class="logo">Lopper</p>
             <nav>
                 <ul class="header__ul">
-                    <li class="hearder__li">Homer</li>
+                    <li class="hearder__li">Home</li>
                     <li class="hearder__li">Services</li>
                     <li class="hearder__li">Work</li>
-                    <li class="hearder__li">About</li>
-                </ul>
+                    <li class="hearder__li">About</li>     
+                </ul>           
                 <img class="header__vector" src="img/Vector.png" alt="phone icon">
-                <h3 class="header__phone">(01) 666 - 693 - 456</h3>
+                <p class="header__phone-number">(01) 666 - 693 - 456</p>
             </nav>
-        </div>
+        </div>        
         <div class="hero">
-            <h3 class="hero__h3">WHAT WE DO?</h3>
-            <h1 class="hero__h1">We grow</h1>
-            <h1 class="hero__h1 highlight">great business</h1> 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, quia.</p>
-            <img class="hero__arrow" src="img/Arrow.png" alt="arrow icon">               
+            <div class="headline">
+                <h3 class="hero__h3">WHAT WE DO?</h3>
+                <h1 class="hero__h1">We grow</h1>
+                <h1 class="hero__h1 hl">great business</h1>
+            </div>
+            
+            <div class="subheader">
+                <p class="subheader__text">Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius.</p>
+                <img class="subheader__arrow" src="img/Arrow.png" alt="arrow icon">
+            </div>               
         </div>
         <div class="side">
             <p class="side__text">SCROLL TO SE MORE</p>
             <img class="side__img" src="img/Icon-Side.png" alt="side arrow icon">
-        </div>
+        </div>        
+        
     </header>
 
     <section class="intro">
         <div class="intro__main">
-            <p class="highlight">INTRO</p>
+            <h1 class="highlight">INTRO</h1>
             <h2 class="intro__title">Our future</h2>
             <p class="intro__subtitle">Apparently we had reached a great height in the atmosphere, for the sky was dead black, and the star had ceased to twinkle.</p>
-            <p class="intro_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eveniet sint enim dolorem voluptas blanditiis autem excepturi error assumenda rem velit aperiam iste esse sit est totam accusantium repellat, dignissimos, maxime odit fugit illo. Provident numquam architecto ipsa, odio dolores quasi velit eum.</p>
+            <p class="intro__text">By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver.</p>
             <button class="intro__btn">LEARN MORE</button>
         </div>
-        <div class="intro__img">
-            <img src="img/Photo.png" alt="picture of a beautiful young woman smilling">
-        </div>
+        <img class="intro__img" src="img/Photo.png" alt="picture of a beautiful young woman smilling">
+        <div class="intro__quote-top"></div>
         <div class="intro__quote">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing."</p>
+            <img class="intro__quote-quote01" src="img/quote01.png">
+            <p class="intro__quote-text">Commodo sed egestas egestas fringilla phasellus faucibus.</p>
+            <img class="intro__quote-quote02" src="img/quote02.png">
         </div>        
     </section>
 
     <section class="benefits">
         <div class="benefits__main">
-            <p class="highlight">BENEFITS</p>
+            <h1 class="highlight">BENEFITS</h1>
             <h2 class="benefits__title">Shapping the future</h2>
             <p class="benefits__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quam deserunt, sequi praesentium numquam porro est beatae commodi at!</p>
             <p class="benefits__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur voluptatibus, ipsum sint, necessitatibus minima, cupiditate porro quae asperiores illum corrupti!</p>
@@ -73,7 +84,7 @@
 
     <section class="services">
         <div class="services__top">
-            <p class="highlight">WE ARE AMAZING</p>
+            <h1 class="highlight">WE ARE AMAZING</h1>
             <h2 class="services__top-title">Our services</h2>
             <p class="services__top-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi aperiam id dolorum modi odit aut. Nobis?</p>            
         </div>
@@ -114,13 +125,16 @@
         </div>
     </section>
 
-    <section class="newsletter">
-        <img class="newsletter__main-img" src="img/Portrait.png" alt="picture of a woman talking on the phone">
-        <div class="newsletter__testimonials">
-            <img class="newsletter__testimonials-bg" src="img/Faces.png" alt="several pictures of faces">
-            <h3 class="newsletter__testimonials-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, reiciendis!</h3>
-            <p class="newsletter__testimonials-client"><span class="highlight"> Kerry Jones</span> - Some Company</p>
+    <section class="testimonials">
+        <img class="testimonials__img" src="img/Portrait.png" alt="picture of a woman talking on the phone">
+        <div class="testimonials__main">
+            <img class="testimonials__main-bg" src="img/Faces.png" alt="several pictures of faces">
+            <h3 class="testimonials__main-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, reiciendis!</h3>
+            <p class="testimonials__main-client"><span class="highlight"> Kerry Jones</span> - Some Company</p>
         </div>
+    </section>
+
+    <section class="newsletter">
         <div class="newsletter__subscribe">
             <h2 class="newsletter__subscribe-title">Subscribe to our Newsletter</h2>
             <p class="newsletter__subscribe-subtitle">Lorem ipsum dolor sit amet consectetur.</p>
