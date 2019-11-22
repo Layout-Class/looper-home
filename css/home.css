@@ -13,7 +13,7 @@ header {
     color: #fcfcfc;
 }
 
-.bg1 {
+.primary-background {
     position: absolute;
     width: 100%;
     height: 828px;
@@ -23,7 +23,7 @@ header {
     mix-blend-mode: multiply;
 }
 
-.bg2 {
+.secondary-background {
     position: absolute;
     width: 100%;
     height: 828px;
