@@ -195,6 +195,13 @@ nav {
     color: #F61067;
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    padding: 10px 0
+}
+
 .intro {
     position: absolute;
     width: 1293px;
@@ -207,14 +214,7 @@ nav {
     width: 460px;
 }
 
-.intro__title {
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 67px;
-    padding: 10px 0
-}
-
-.intro__subtitle {
+.subtitle {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -292,26 +292,57 @@ nav {
     top: 300px;
 }
 
-
-
-/* LATES*/
-
 .benefits__img {
     position: absolute;
     width: 460px;
     height: 612px;
-    left: 735px;
-    top: 1836px; 
+    right: -200px;
+    top: 170px; 
 }
 
 .benefits {
     position: absolute;
-    width: 1293px;
+    width: 70%;
     height: 1008px;
     left: 0px;
-    top: 1638px;
+    top: 1490px;
+    background: #30124E;
+    color: #FCFCFC;
 }
 
+.benefits__main {
+    position: absolute;
+    width: 460px;
+    left: 150px;
+    top: 150px;
+}
+
+.benefits__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    padding: 10px 0;
+}
+
+.benefits__paragraphs {
+    padding-top: 50px;
+}
+
+.benefits__side {
+    position: absolute;
+    right: -293px;
+    top: 400px;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #5E239D;
+}
+
+/*stop point */
 .services {
     position: absolute;
     width: 1440px;
