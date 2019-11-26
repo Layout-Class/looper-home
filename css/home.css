@@ -342,15 +342,48 @@ h2 {
     color: #5E239D;
 }
 
-/*stop point */
 .services {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1548px;
     left: 0px;
     top: 2448px;
+    background: #150433;
+    color: #FCFCFC;
 }
 
+.services__secondary-background {
+    background: #150433;
+    width: 407px;
+    position: absolute;
+    height: 400px;
+    right: 0;
+    top: -176px;
+}
+
+.services__top {
+    position: absolute;
+    text-align: center;
+    right: 335px;
+    top: 100px;
+}
+
+.services__top-subtitle {
+    width: 558px;
+}
+
+.services__list {
+    position: absolute;
+    display: flex;
+    top: 500px;
+}
+
+.services__btn {
+    position: absolute;
+    bottom: 200px;
+    right: 550px;
+}
+/*stop point */
 .testimonials {
     position: absolute;
     width: 1440px;
