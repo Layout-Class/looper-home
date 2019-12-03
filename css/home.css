@@ -364,7 +364,7 @@ h2 {
 .services__top {
     position: absolute;
     text-align: center;
-    right: 335px;
+    right: 395px;
     top: 100px;
 }
 
@@ -372,16 +372,51 @@ h2 {
     width: 558px;
 }
 
-.services__list {
+.services__item-title {
+    margin-bottom: 30px;
+}
+
+.services__item {
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.services__item-text {
+    width: 300px;
+}
+
+.services__list-top {
     position: absolute;
+    width: 100%;
     display: flex;
-    top: 500px;
+    top: 300px;
+    margin: 10px;
+}
+
+.services__list-bottom {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    top: 550px;
 }
 
 .services__btn {
     position: absolute;
-    bottom: 200px;
-    right: 550px;
+    bottom: 600px;
+    left: 585px;   
+}
+
+.aqua {
+    color: #00F0b5;
+}
+
+.orange {
+    color: #F67110;
+}
+
+.pink {
+    color: #F61067;
 }
 /*stop point */
 .testimonials {
